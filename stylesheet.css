@@ -1,11 +1,20 @@
+html {
+    font-size: 16px;
+}
 .left-column {
     float: left;
+    margin-left: 69px;
+    margin-top: 67px;
+    width: 34.46%;
+   /* border: 1px solid #3d6cb0; */
+
 }
 .big-round {
     width: 223px;
     height: 223px;
     background: #3d6cb0;
     border-radius: 223px;
+    margin: 15px;
 
 
 }
@@ -14,7 +23,24 @@
     height: 255px;
     border-radius: 255px;
     border: 1px solid #3d6cb0;
+
+
 }
 .logo {
+    padding-left: 69px;
+    margin-bottom: 85px;
+    border: 1px solid #3d6cb0;
 
+}
+.name {
+    font-size: 43px;
+    text-align: center;
+}
+.surname {
+    font-size: 43px;
+    text-align: center;
+}
+.job {
+    font-size: 20px;
+    text-align: center;
 }

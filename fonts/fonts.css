@@ -31,12 +31,14 @@
 
 
 
-.font-bold { 
-font-family: "Conv_8141"; 
+.font-bold {
+font-family: "Conv_8141";
 }
 
-.font-regular { 
-font-family: "Conv_8143"; 
+.font-regular {
+	font-family: "Conv_8143";
+}
 
-.font-light { 
-font-family: "Conv_Myriad-Pro-Light-SemiExtended_31641";
+.font-light {
+	font-family: "Conv_Myriad-Pro-Light-SemiExtended_31641";
+}
