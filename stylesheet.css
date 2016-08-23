@@ -1,0 +1,20 @@
+.left-column {
+    float: left;
+}
+.big-round {
+    width: 223px;
+    height: 223px;
+    background: #3d6cb0;
+    border-radius: 223px;
+
+
+}
+.big-circle {
+    width: 255px;
+    height: 255px;
+    border-radius: 255px;
+    border: 1px solid #3d6cb0;
+}
+.logo {
+
+}
