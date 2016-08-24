@@ -1,14 +1,17 @@
 html {
     font-size: 16px;
 }
+
 .left-column {
     float: left;
     margin-left: 69px;
     margin-top: 67px;
     width: 34.46%;
-   /* border: 1px solid #3d6cb0; */
+    /* border: 1px solid #3d6cb0; */
 
 }
+
+/*LOGO*/
 .big-round {
     width: 223px;
     height: 223px;
@@ -16,35 +19,87 @@ html {
     border-radius: 222px;
     margin: 15px;
 
-
 }
+
 .big-circle {
     width: 254px;
     height: 253px;
     border-radius: 255px;
     border: 1px solid #3d6cb0;
-    margin: 21px  0 0 10px ;
-
+    margin: 21px 0 0 10px;
 
 }
+
 .logo {
     padding-left: 89px;
     margin-bottom: 27px;
 
 }
+
+/*ABOUT*/
 .name {
     font-size: 60px;
     text-align: center;
     margin: 0 0 -21px -4px;
     letter-spacing: -1px;
 }
+
 .surname {
     font-size: 66px;
     text-align: center;
     letter-spacing: 2px;
     margin: 0;
 }
+
 .job {
     font-size: 27px;
     text-align: center;
+}
+
+/*SPRITESHEET */
+
+.profile-logo {
+    background: url("spritesheet.png") no-repeat;
+    display: inline-block;
+}
+
+.profile-logo {
+    background-position: 0 0;
+    width: 84px;
+    height: 79px;
+}
+
+/*END OF SPRITESHEET*/
+
+.text {
+    font-size: 17px;
+    padding: 12px 14px 0 0;
+    margin: 0;
+    letter-spacing: 0;
+}
+
+/*PROFILE*/
+.profile {
+    margin: 85px 0 0 -10px;
+}
+
+.v-align {
+    vertical-align: middle;
+}
+
+.profile-name {
+    color: #3d6cb0;
+    display: inline-block;
+    font-size: 45px;
+    padding-left: 5px;
+}
+
+.line-profile {
+    background-color: #3d6cb0;
+    height: 5px;
+    width: 185px;
+    display: inline-block;
+    margin-left: 5px;
+    border: none;
+
 }
