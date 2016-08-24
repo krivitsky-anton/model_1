@@ -56,9 +56,8 @@ html {
     text-align: center;
 }
 
-/*SPRITESHEET */
-
-.profile-logo {
+/*SPRITESHEETS */
+.profile-logo, .contact-logo {
     background: url("spritesheet.png") no-repeat;
     display: inline-block;
 }
@@ -69,7 +68,13 @@ html {
     height: 79px;
 }
 
-/*END OF SPRITESHEET*/
+.contact-logo {
+    background-position: -100px 0;
+    width: 79px;
+    height: 78px;
+}
+
+/*END OF SPRITESHEETS*/
 
 .text {
     font-size: 17px;
@@ -78,13 +83,17 @@ html {
     letter-spacing: 0;
 }
 
-/*PROFILE*/
-.profile {
-    margin: 85px 0 0 -10px;
+span {
+    line-height: 19px;
 }
 
 .v-align {
     vertical-align: middle;
+}
+
+/*PROFILE*/
+.profile {
+    margin: 85px 0 0 -10px;
 }
 
 .profile-name {
@@ -102,4 +111,25 @@ html {
     margin-left: 5px;
     border: none;
 
+}
+
+/*CONTACT*/
+.contact {
+    margin: 48px 0 0 -10px;
+}
+
+.contact-name {
+    color: #3d6cb0;
+    display: inline-block;
+    font-size: 45px;
+    padding-left: 9px;
+}
+
+.line-contact {
+    background-color: #3d6cb0;
+    height: 5px;
+    width: 165px;
+    display: inline-block;
+    margin-left: 5px;
+    border: none;
 }
