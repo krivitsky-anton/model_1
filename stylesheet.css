@@ -1,6 +1,6 @@
-html {
-    font-size: 16px;
-}
+/*html {*/
+    /*font-size: 16px;*/
+/*}*/
 
 .left-column {
     float: left;
@@ -56,8 +56,8 @@ html {
     text-align: center;
 }
 
-/*SPRITESHEETS */
-.profile-logo, .contact-logo {
+/*SPRITE SHEETS */
+.profile-logo, .contact-logo, .skills-logo {
     background: url("spritesheet.png") no-repeat;
     display: inline-block;
 }
@@ -74,7 +74,13 @@ html {
     height: 79px;
 }
 
-/*END OF SPRITESHEETS*/
+.skills-logo {
+    background-position: -199px 0;
+    width: 80px;
+    height: 79px;
+}
+
+/*END OF SPRITE SHEETS*/
 
 .text {
     font-size: 17px;
@@ -154,3 +160,57 @@ span {
 }
 
 /*SKILLS*/
+.skills {
+    margin: 37px 0 2px -11px;
+}
+
+.skills-name {
+    color: #3d6cb0;
+    display: inline-block;
+    font-size: 45px;
+    padding-left: 8px;
+}
+
+.line-skills {
+    background-color: #3d6cb0;
+    height: 5px;
+    width: 212px;
+    display: inline-block;
+    margin-left: 10px;
+    border: none;
+}
+
+.skill-creative {
+    margin-top: 20px;
+}
+
+.skill-title {
+    font-size: 28px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 8px 0 -3px -10px;
+}
+
+.skill-point-on {
+    height: 19px;
+    width: 19px;
+    border: none;
+    background-color: #3d6cb0;
+    border-radius: 19px;
+    display: inline-block;
+    margin-right: 7px;
+    padding-right: 0;
+}
+
+.skill-point-off {
+    height: 18px;
+    width: 18px;
+    border: none;
+    background-color: #e6e6e6;
+    border-radius: 19px;
+    display: inline-block;
+    margin-right: 7px;
+    padding: 0;
+}
