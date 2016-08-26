@@ -63,7 +63,7 @@
 }
 
 /*SPRITE SHEETS */
-.profile-logo, .contact-logo, .skills-logo, .education-logo {
+.profile-logo, .contact-logo, .skills-logo, .education-logo, .experience-logo {
     background: url("spritesheet.png") no-repeat;
     display: inline-block;
 }
@@ -90,6 +90,12 @@
     background-position: -300px 0;
     width: 84px;
     height: 80px;
+}
+
+.experience-logo {
+    background-position: -401px 0;
+    width: 85px;
+    height: 85px;
 }
 
 /*END OF SPRITE SHEETS*/
@@ -262,7 +268,7 @@ span {
     padding: 0;
 }
 
-ul {
+ul > .education-point, ul > .experience-point {
     list-style-type: none;
 }
 
@@ -275,7 +281,7 @@ ul {
 
 }
 
-.period {
+.education-period {
     display: inline-block;
     font-size: 29px;
 }
@@ -295,3 +301,22 @@ ul {
 }
 
 /*EXPERIENCE*/
+.experience {
+    margin-top: 69px;
+}
+
+.experience-name {
+    color: #3d6cb0;
+    display: inline-block;
+    font-size: 45px;
+    padding: 0 0 7px 13px;
+}
+
+.experience-line {
+    background-color: #3d6cb0;
+    height: 5px;
+    width: 345px;
+    display: inline-block;
+    margin: 0 0 3px -2px;
+    border: none;
+}
