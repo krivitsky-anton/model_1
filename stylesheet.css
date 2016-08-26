@@ -1,5 +1,5 @@
 /*html {*/
-    /*font-size: 16px;*/
+/*font-size: 16px;*/
 /*}*/
 
 .left-column {
@@ -7,8 +7,14 @@
     margin-left: 69px;
     margin-top: 67px;
     width: 34.46%;
-    /* border: 1px solid #3d6cb0; */
 
+}
+
+.right-column {
+    float: left;
+    margin-left: 70px;
+    margin-top: 76px;
+    width: 53%;
 }
 
 /*LOGO*/
@@ -57,7 +63,7 @@
 }
 
 /*SPRITE SHEETS */
-.profile-logo, .contact-logo, .skills-logo {
+.profile-logo, .contact-logo, .skills-logo, .education-logo {
     background: url("spritesheet.png") no-repeat;
     display: inline-block;
 }
@@ -78,6 +84,12 @@
     background-position: -199px 0;
     width: 80px;
     height: 79px;
+}
+
+.education-logo {
+    background-position: -300px 0;
+    width: 84px;
+    height: 80px;
 }
 
 /*END OF SPRITE SHEETS*/
@@ -109,7 +121,7 @@ span {
     padding-left: 5px;
 }
 
-.line-profile {
+.profile-line {
     background-color: #3d6cb0;
     height: 5px;
     width: 185px;
@@ -131,7 +143,7 @@ span {
     padding-left: 9px;
 }
 
-.line-contact {
+.contact-line {
     background-color: #3d6cb0;
     height: 5px;
     width: 165px;
@@ -171,7 +183,7 @@ span {
     padding-left: 8px;
 }
 
-.line-skills {
+.skills-line {
     background-color: #3d6cb0;
     height: 5px;
     width: 212px;
@@ -214,3 +226,72 @@ span {
     margin-right: 7px;
     padding: 0;
 }
+
+.point-black {
+    height: 22px;
+    width: 22px;
+    border: none;
+    background-color: #000000;
+    border-radius: 19px;
+    display: inline-block;
+    margin: 0 15px 0 -26px;
+    padding: 0;
+
+}
+
+/*EDUCATION*/
+
+.education-name {
+    color: #3d6cb0;
+    display: inline-block;
+    font-size: 45px;
+    padding: 0 0 13px 15px;
+}
+
+.education-line {
+    background-color: #3d6cb0;
+    height: 5px;
+    width: 344px;
+    display: inline-block;
+    margin: 0 0 7px 5px;
+    border: none;
+}
+
+.education-point {
+    margin: 27px 0 5px 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.degree {
+    text-transform: uppercase;
+    color: #3d6cb0;
+    font-size: 29px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.period {
+    display: inline-block;
+    font-size: 29px;
+}
+
+.university {
+    display: inline-block;
+    font-size: 29px;
+    text-transform: uppercase;
+    padding-left: 15px;
+
+}
+
+.education-point > .text {
+    padding-left: 19px;
+    font-size: 17px;
+    margin: -4px 0 -15px 0;
+}
+
+/*EXPERIENCE*/
