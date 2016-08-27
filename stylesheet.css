@@ -263,13 +263,10 @@ span {
     border: none;
 }
 
-.education-point {
+ul > .education-point {
+    list-style-type: none;
     margin: 27px 0 5px 0;
     padding: 0;
-}
-
-ul > .education-point, ul > .experience-point {
-    list-style-type: none;
 }
 
 .degree {
@@ -302,7 +299,7 @@ ul > .education-point, ul > .experience-point {
 
 /*EXPERIENCE*/
 .experience {
-    margin-top: 69px;
+    margin: 70px 0 37px 0;
 }
 
 .experience-name {
@@ -320,3 +317,36 @@ ul > .education-point, ul > .experience-point {
     margin: 0 0 3px -2px;
     border: none;
 }
+
+.company-name {
+    text-transform: uppercase;
+    font-size: 29px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.experience-period {
+    display: inline-block;
+    font-size: 29px;
+}
+
+.your-job {
+    display: inline-block;
+    font-size: 29px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.experience-point > .text {
+    padding-left: 19px;
+    font-size: 17px;
+    margin: -4px 0 -15px 0;
+}
+
+ul > .experience-point {
+    list-style-type: none;
+    margin: 14px 0 27px 0;
+    padding: 0;
+}
+
+/*SOFTWARE*/
