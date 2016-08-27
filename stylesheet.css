@@ -63,7 +63,7 @@
 }
 
 /*SPRITE SHEETS */
-.profile-logo, .contact-logo, .skills-logo, .education-logo, .experience-logo {
+.profile-logo, .contact-logo, .skills-logo, .education-logo, .experience-logo, .software-logo {
     background: url("spritesheet.png") no-repeat;
     display: inline-block;
 }
@@ -96,6 +96,12 @@
     background-position: -401px 0;
     width: 85px;
     height: 85px;
+}
+
+.software-logo {
+    background-position: -501px 0;
+    width: 82px;
+    height: 82px;
 }
 
 /*END OF SPRITE SHEETS*/
@@ -350,3 +356,62 @@ ul > .experience-point {
 }
 
 /*SOFTWARE*/
+.software {
+    margin: 70px 0 17px 0;
+}
+.software-table table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.software-table td {
+
+width:49%
+}
+
+.software-name {
+    color: #3d6cb0;
+    display: inline-block;
+    font-size: 45px;
+    padding: 0 0 0 15px;
+}
+
+.software-line-on {
+    background-color: #3d6cb0;
+    height: 22px;
+    display: inline-block;
+    padding: 0;
+    margin: 12px 0 0 0;
+}
+
+.software-line-off {
+    /*background-color: #e6e6e6;*/
+    background-color: red;
+    height: 22px;
+    display: inline-block;
+    margin: 12px 0 0 -6px;
+    padding: 0;
+}
+
+.software-title {
+    text-transform: uppercase;
+    font-size: 27px;
+
+    display: inline-block;
+}
+
+table, td {
+border: 1px solid red;
+}
+.photoshop-line-on {
+    width: 270px;
+}
+.photoshop-line-off {
+    width: 24px;
+}
+.dreamweaver-line-on {
+    width: 200px;
+}
+.photoshop-line-off {
+    width: 20px;
+}
