@@ -359,14 +359,23 @@ ul > .experience-point {
 .software {
     margin: 70px 0 17px 0;
 }
+
 .software-table table {
     width: 100%;
-    border-spacing: 0;
+    margin-top: 30px;
+    border-collapse: separate;
+    display: table;
 }
 
 .software-table td {
+    padding-left: 5px;
+    margin-bottom: 10px;
+    width: 45%;
 
-width:49%
+}
+
+.software-table td:nth-child(2) {
+    margin-left: 8%;
 }
 
 .software-name {
@@ -376,18 +385,27 @@ width:49%
     padding: 0 0 0 15px;
 }
 
+.software-line {
+    background-color: #3d6cb0;
+    height: 5px;
+    width: 345px;
+    display: inline-block;
+    margin: 0 0 -2px 24px;
+    border: none;
+}
+
 .software-line-on {
     background-color: #3d6cb0;
-    height: 22px;
+    height: 23px;
     display: inline-block;
     padding: 0;
-    margin: 12px 0 0 0;
+    margin: 12px 0 0 2px;
 }
 
 .software-line-off {
-    /*background-color: #e6e6e6;*/
-    background-color: red;
-    height: 22px;
+    background-color: #e6e6e6;
+    /*background-color: red;*/
+    height: 23px;
     display: inline-block;
     margin: 12px 0 0 -6px;
     padding: 0;
@@ -395,23 +413,58 @@ width:49%
 
 .software-title {
     text-transform: uppercase;
-    font-size: 27px;
+    font-size: 29px;
 
     display: inline-block;
 }
 
-table, td {
-border: 1px solid red;
-}
+/*LINES */
+
 .photoshop-line-on {
-    width: 270px;
+    width: 87%;
 }
+
 .photoshop-line-off {
-    width: 24px;
+    width: 9%;
 }
+
 .dreamweaver-line-on {
-    width: 200px;
+    width: 80%;
 }
-.photoshop-line-off {
-    width: 20px;
+
+.dreamweaver-line-off {
+    width: 16%;
+}
+
+.illustrator-line-on {
+    width: 68%;
+}
+
+.illustrator-line-off {
+    width: 28%;
+}
+
+.after-effects-line-on {
+    width: 59%;
+}
+
+.after-effects-line-off {
+    width: 37%;
+}
+
+.indesign-line-on {
+    width: 54%;
+}
+
+.indesign-line-off {
+    width: 42%;
+}
+
+.html-css3-line-on {
+    width: 88%;
+}
+
+.html-css3-line-off {
+    width: 9%;
+    margin-left: -7px;
 }
