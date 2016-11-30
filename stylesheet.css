@@ -45,6 +45,7 @@
     text-align: center;
     margin: 0 0 -21px -4px;
     letter-spacing: -1px;
+    text-transform: uppercase;
 }
 
 .surname {
@@ -52,11 +53,15 @@
     text-align: center;
     letter-spacing: 2px;
     margin: 0;
+    text-transform: uppercase;
+
 }
 
 .job {
     font-size: 27px;
     text-align: center;
+    text-transform: uppercase;
+
 }
 
 .text {
@@ -128,12 +133,13 @@ span {
     display: inline-block;
     font-size: 45px;
     padding-left: 5px;
+    text-transform: uppercase;
 }
 
 .profile-line {
     background-color: #3d6cb0;
     height: 5px;
-    width: 185px;
+    width: 39.4%;
     display: inline-block;
     margin-left: 5px;
     border: none;
@@ -150,12 +156,13 @@ span {
     display: inline-block;
     font-size: 45px;
     padding-left: 9px;
+    text-transform: uppercase;
 }
 
 .contact-line {
     background-color: #3d6cb0;
     height: 5px;
-    width: 165px;
+    width: 35.2%;
     display: inline-block;
     margin-left: 5px;
     border: none;
@@ -190,12 +197,13 @@ span {
     display: inline-block;
     font-size: 45px;
     padding-left: 8px;
+    text-transform: uppercase;
 }
 
 .skills-line {
     background-color: #3d6cb0;
     height: 5px;
-    width: 212px;
+    width: 45%;
     display: inline-block;
     margin-left: 10px;
     border: none;
@@ -255,12 +263,13 @@ span {
     display: inline-block;
     font-size: 45px;
     padding: 0 0 13px 15px;
+    text-transform: uppercase;
 }
 
 .education-line {
     background-color: #3d6cb0;
     height: 5px;
-    width: 344px;
+    width: 48.7%;
     display: inline-block;
     margin: 0 0 7px 5px;
     border: none;
@@ -310,12 +319,13 @@ ul > .education-point {
     display: inline-block;
     font-size: 45px;
     padding: 0 0 7px 13px;
+    text-transform: uppercase;
 }
 
 .experience-line {
     background-color: #3d6cb0;
     height: 5px;
-    width: 345px;
+    width: 48.9%;
     display: inline-block;
     margin: 0 0 3px -2px;
     border: none;
@@ -380,12 +390,13 @@ ul > .experience-point {
     display: inline-block;
     font-size: 45px;
     padding: 0 0 0 15px;
+    text-transform: uppercase;
 }
 
 .software-line {
     background-color: #3d6cb0;
     height: 5px;
-    width: 345px;
+    width: 48.8%;
     display: inline-block;
     margin: 0 0 -2px 24px;
     border: none;
