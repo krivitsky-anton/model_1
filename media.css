@@ -1,10 +1,6 @@
 @media (min-width: 0px) and (max-width: 320px) {
 
-    .left-column {
-        margin: 0;
-        width: 99%;
-    }
-
+    .left-column,
     .right-column {
         margin: 0;
         width: 99%;
@@ -44,7 +40,7 @@
     }
 
     .text {
-        font-size: 15px;
+        font-size: 16px;
         margin-left: 15px;
     }
 
@@ -54,7 +50,7 @@
     }
 
     .profile-name {
-        font-size: 40px;
+        font-size: 34px;
         padding-left: 5px;
     }
 
@@ -68,7 +64,7 @@
     }
 
     .contact-name {
-        font-size: 40px;
+        font-size: 34px;
         padding-left: 5px;
     }
 
@@ -81,10 +77,8 @@
     }
 
     .left-row {
-        text-transform: uppercase;
-        color: #3d6cb0;
         font-size: 18px;
-        padding: 10px 0px;
+        padding: 10px 0;
 
     }
 
@@ -99,7 +93,7 @@
     }
 
     .skills-name {
-        font-size: 40px;
+        font-size: 34px;
         padding-left: 5px;
     }
 
@@ -135,17 +129,508 @@
     .skill-communication > ul {
         padding-left: 5px;
     }
+
+    /***EDUCATION***/
+    .education-line {
+        display: none;
+    }
+
+    .education-name {
+        font-size: 34px;
+        padding: 5px;
+    }
+
+    .degree {
+        font-size: 24px;
+
+    }
+
+    .education-period {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .university {
+        font-size: 24px;
+
+    }
+
+    .education-point > .text {
+        font-size: 16px;
+    }
+
+    /***EXPERIENCE***/
+    .experience-line {
+        display: none;
+    }
+
+    .experience-name {
+        font-size: 34px;
+        padding: 0;
+    }
+
+    .company-name {
+        font-size: 24px;
+    }
+
+    .experience-period {
+        font-size: 24px;
+    }
+
+    .your-job {
+        font-size: 22px;
+    }
+
+    .experience-point > .text {
+        font-size: 16px;
+    }
+
+    /***SOFTWARE***/
+    .software-line {
+        display: none;
+    }
+
+    .software-name {
+        font-size: 34px;
+        padding: 5px;
+    }
+
+    .software-logo {
+        margin-left: 5px;
+    }
+
+    .software-title {
+        font-size: 20px;
+    }
+
+    .software-table td:nth-child(2) {
+        margin-left: 6%;
+    }
+
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
+@media (min-width: 321px) and (max-width: 479px) {
+    .left-column,
+    .right-column {
+        margin: 0;
+        width: 99%;
+    }
+
+    /***LOGO***/
+    .big-round {
+        width: 158px;
+        height: 158px;
+        border-radius: 158px;
+
+    }
+
+    .big-circle {
+        width: 189px;
+        height: 188px;
+        border-radius: 189px;
+    }
+
+    .logo {
+        padding-left: 20%;
+    }
+
+    /***ABOUT***/
+    .name {
+        font-size: 40px;
+    }
+
+    .surname {
+        font-size: 42px;
+        margin-top: 5px;
+    }
+
+    .job {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    /***PROFILE***/
+    .profile-line {
+        display: none;
+    }
+
+    .profile-name {
+        font-size: 36px;
+        padding-left: 15px;
+    }
+
+    .profile-logo {
+        margin-left: 15px;
+    }
+
+    /***CONTACT***/
+    .contact-line {
+        display: none;
+    }
+
+    .contact-name {
+        font-size: 36px;
+        padding-left: 15px;
+    }
+
+    .contact-logo {
+        margin-left: 15px;
+    }
+
+    .contact-table {
+        margin-left: 15px;
+    }
+
+    .left-row {
+        font-size: 18px;
+        padding: 10px 0;
+
+    }
+
+    .right-row {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    /***SKILLS***/
+    .skills-line {
+        display: none;
+    }
+
+    .skills-name {
+        font-size: 36px;
+        padding-left: 15px;
+    }
+
+    .skills-logo {
+        margin-left: 15px;
+    }
+
+    .skill-title {
+        font-size: 24px;
+    }
+
+    .skill-point-on {
+        height: 16px;
+        width: 16px;
+        margin-right: 4px;
+    }
+
+    .skill-point-off {
+        height: 16px;
+        width: 16px;
+        margin-right: 4px;
+    }
+
+    .point-black {
+        height: 16px;
+        width: 16px;
+    }
+
+    .skill-creative > ul,
+    .skill-teamwork > ul,
+    .skill-innovate > ul,
+    .skill-communication > ul {
+        padding-left: 25px;
+    }
+
+    /***EDUCATION***/
+    .education-line {
+        display: none;
+    }
+
+    .education-name {
+        font-size: 36px;
+        padding: 15px;
+    }
+
+    .degree {
+        font-size: 24px;
+
+    }
+
+    .education-period {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .university {
+        font-size: 24px;
+
+    }
+
+    .education-point > .text {
+        font-size: 16px;
+    }
+
+    /***EXPERIENCE***/
+    .experience-line {
+        display: none;
+    }
+
+    .experience-name {
+        font-size: 36px;
+        padding-left: 10px;
+    }
+
+    .company-name {
+        font-size: 24px;
+    }
+
+    .experience-period {
+        font-size: 24px;
+    }
+
+    .your-job {
+        font-size: 22px;
+    }
+
+    .experience-point > .text {
+        font-size: 16px;
+    }
+
+    /***SOFTWARE***/
+    .software-line {
+        display: none;
+    }
+
+    .software-name {
+        font-size: 36px;
+        padding: 15px;
+    }
+
+    .software-logo {
+        margin-left: 5px;
+    }
+
+    .software-title {
+        font-size: 20px;
+    }
+
+    .software-table td:nth-child(2) {
+        margin-left: 6%;
+    }
 
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 640px) {
+    .left-column,
+    .right-column {
+        margin: 0;
+        width: 99%;
+    }
+
+    /***LOGO***/
+    .big-round {
+        width: 178px;
+        height: 178px;
+        border-radius: 178px;
+
+    }
+
+    .big-circle {
+        width: 209px;
+        height: 208px;
+        border-radius: 209px;
+    }
+
+    .logo {
+        padding-left: 30%;
+    }
+
+    /***ABOUT***/
+    .name {
+        font-size: 48px;
+    }
+
+    .surname {
+        font-size: 50px;
+        margin-top: 5px;
+    }
+
+    .job {
+        font-size: 21px;
+    }
+
+    .text {
+        font-size: 17px;
+        margin-left: 15px;
+    }
+
+    /***PROFILE***/
+    .profile-name {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+
+    .profile-line {
+        display: none;
+    }
+
+    .profile-logo {
+        margin-left: 15px;
+    }
+
+    /***CONTACT***/
+    .contact-name {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+
+    .contact-line {
+        display: none;
+    }
+
+    .contact-logo {
+        margin-left: 15px;
+    }
+
+    .contact-table {
+        margin-left: 15px;
+    }
+
+    .left-row {
+        font-size: 20px;
+        padding: 10px 0;
+
+    }
+
+    .right-row {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    /***SKILLS***/
+    .skills-name {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+
+    .skills-line {
+        display: none;
+    }
+
+    .skills-logo {
+        margin-left: 15px;
+    }
+
+    .skill-title {
+        font-size: 26px;
+    }
+
+    .skill-point-on {
+        height: 18px;
+        width: 18px;
+        margin-right: 5px;
+    }
+
+    .skill-point-off {
+        height: 18px;
+        width: 18px;
+        margin-right: 5px;
+    }
+
+    .point-black {
+        height: 15px;
+        width: 15px;
+    }
+
+    .skill-creative > ul,
+    .skill-teamwork > ul,
+    .skill-innovate > ul,
+    .skill-communication > ul {
+        padding-left: 24%;
+    }
+
+    /***EDUCATION***/
+    .education-name {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .education-line {
+        display:none;
+    }
+
+    .degree {
+        font-size: 24px;
+        padding-left: 8px;
+
+    }
+
+    .education-period {
+        font-size: 24px;
+    }
+
+    .university {
+        font-size: 22px;
+        vertical-align: middle;
+
+    }
+
+    .education-point > .text {
+        font-size: 17px;
+    }
+
+    /***EXPERIENCE***/
+    .experience-name {
+        font-size: 40px;
+        padding-left: 10px;
+    }
+
+    .experience-line {
+        display: none;
+    }
+
+    .company-name {
+        font-size: 24px;
+        padding-left: 8px;
+    }
+
+    .experience-period {
+        font-size: 24px;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    .your-job {
+        font-size: 22px;
+        vertical-align: middle;
+    }
+
+    .experience-point > .text {
+        font-size: 16px;
+    }
+
+    /***SOFTWARE***/
+    .software-name {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .software-line {
+        display: none;
+    }
+
+    .software-logo {
+        margin-left: 5px;
+    }
+
+    .software-title {
+        font-size: 20px;
+    }
+
+    .software-table td:nth-child(2) {
+        margin-left: 6%;
+    }
 
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 641px) and (max-width: 768px) {
 
 }
 
